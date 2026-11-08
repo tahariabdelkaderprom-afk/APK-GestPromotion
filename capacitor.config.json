@@ -1,0 +1,8 @@
+{
+  "appId": "com.gestpromo.mobile",
+  "appName": "GestPromo",
+  "webDir": "www",
+  "server": {
+    "androidScheme": "https"
+  }
+}

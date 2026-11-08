@@ -1,0 +1,25 @@
+GESTPROMO ANDROID - PROJET SOURCE V1
+
+Ce ZIP contient une adaptation de l’interface du logiciel Windows V7 pour Capacitor Android.
+Ce n’est PAS un APK installable directement.
+
+PRÉREQUIS SUR UN PC : Node.js, Android Studio, Android SDK et JDK compatible.
+1. Décompresser le ZIP.
+2. Ouvrir un terminal dans le dossier GestPromo_Android_v1.
+3. npm install
+4. npm run android:add
+5. npm run android:sync
+6. npm run android:open
+7. Dans Android Studio : Build > Build Bundle(s) / APK(s) > Build APK(s).
+8. Transférer l’APK généré vers le téléphone et autoriser son installation.
+
+POINTS À VÉRIFIER AVANT UTILISATION PROFESSIONNELLE :
+- Tester tous les modules sur un appareil Android, notamment fichiers, impression, PDF, Excel et caméra.
+- La sauvegarde locale (localStorage / IndexedDB) ne synchronise PAS automatiquement Windows et Android.
+- Faire des sauvegardes/exportations régulières ; la désinstallation peut effacer les données locales.
+- Certaines fonctions chargent des bibliothèques sur CDN et requièrent Internet (import PDF, DOCX, XLSX notamment).
+- Certaines fonctions externes (API IA, WhatsApp, vidéo, Supabase) nécessitent Internet et/ou configuration.
+- Aucune compilation ni test sur téléphone Android n’a été effectué ici.
+- Ne pas mettre de clés API privées dans le code client.
+
+Netlify n’est pas nécessaire pour construire ou installer un APK.
