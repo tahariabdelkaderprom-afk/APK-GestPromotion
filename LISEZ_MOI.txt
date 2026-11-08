@@ -1,0 +1,7 @@
+GestPromo Android - projet de compilation en ligne
+Ce projet ouvre le site Netlify existant dans une WebView Android. Il ne duplique pas la base locale Windows.
+Compilation via GitHub Actions (compte GitHub requis) ou Android Studio avec Gradle et Android SDK 35.
+Le fichier produit est un APK de TEST (debug), non destine a la distribution publique.
+Internet requis. Les donnees partagees et les permissions Supabase doivent etre auditees.
+Le telechargement de documents, les sessions de connexion et les fonctions mobiles doivent etre testes sur appareil.
+Ne pas utiliser de donnees reelles sensibles avant verification des acces et sauvegardes.
